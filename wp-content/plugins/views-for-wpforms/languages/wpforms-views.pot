@@ -1,0 +1,358 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Blank WordPress Pot "
+"v1.0.0\n"
+"POT-Creation-Date: "
+"2021-11-02 15:11+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: "
+"cf7-views-pro-js\n"
+
+#: inc/admin/class-wpforms-views-metabox.php:15
+msgid "View Settings"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-metabox.php:16
+#: inc/admin/class-wpforms-views-posttype.php:54
+msgid "Shortcode"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:14
+msgctxt ""
+"post type general name"
+msgid "WPForms Views"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:15
+msgctxt ""
+"post type singular name"
+msgid "WPForms View"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:16
+msgctxt "admin menu"
+msgid "WPForms Views"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:17
+msgctxt ""
+"add new on admin bar"
+msgid "WPForms Views"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:18
+msgctxt "book"
+msgid "Add New"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:19
+msgid "Add New"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:20
+msgid "New WPForms View"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:21
+msgid "Edit WPForms View"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:22
+msgid "View WPForms View"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:23
+msgid "All Views"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:24
+msgid "Search Views"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:25
+msgid "Parent Views:"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:26
+msgid "No view found."
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:27
+msgid ""
+"No view found in Trash."
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:32
+msgid "Description."
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:52
+msgid "View Format"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-posttype.php:53
+msgid "View Source"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-settings-api.php:77
+#, php-format
+msgid ""
+"The callback function "
+"used for the %s setting "
+"is missing."
+msgstr ""
+
+#: inc/admin/class-wpforms-views-settings.php:143
+#: inc/admin/class-wpforms-views-settings.php:150
+#: inc/admin/class-wpforms-views-settings.php:210
+msgid "License"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-settings.php:143
+msgid ""
+"Your license key "
+"provides access to "
+"regular plugin updates & "
+"security fixes."
+msgstr ""
+
+#: inc/admin/class-wpforms-views-settings.php:161
+msgid "Access Permissions"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-settings.php:161
+msgid ""
+"Select which user roles "
+"can access to Views "
+"functionality. "
+"Administrator role has "
+"full access."
+msgstr ""
+
+#: inc/admin/class-wpforms-views-settings.php:169
+msgid "Create Views"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-settings.php:178
+msgid "Edit Settings"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-settings.php:212
+#: inc/admin/class-wpforms-views-settings.php:217
+msgid "Save Settings"
+msgstr ""
+
+#: inc/admin/class-wpforms-views-settings.php:215
+msgid "Access"
+msgstr ""
+
+#: inc/admin/updater/EDD_SL_Plugin_Updater.php:204
+#, php-format
+msgid ""
+"There is a new version "
+"of %1$s available. "
+"%2$sView version %3$s "
+"details%4$s."
+msgstr ""
+
+#: inc/admin/updater/EDD_SL_Plugin_Updater.php:212
+#, php-format
+msgid ""
+"There is a new version "
+"of %1$s available. "
+"%2$sView version %3$s "
+"details%4$s or "
+"%5$supdate now%6$s."
+msgstr ""
+
+#: inc/admin/updater/EDD_SL_Plugin_Updater.php:366
+msgid ""
+"You do not have "
+"permission to install "
+"plugin updates"
+msgstr ""
+
+#: inc/admin/updater/EDD_SL_Plugin_Updater.php:366
+msgid "Error"
+msgstr ""
+
+#: inc/admin/updater/license.php:57
+#: inc/admin/updater/license.php:169
+msgid ""
+"An error occurred, "
+"please try again."
+msgstr ""
+
+#: inc/admin/updater/license.php:136
+#, php-format
+msgid ""
+"Your license key expired "
+"on %s."
+msgstr ""
+
+#: inc/admin/updater/license.php:143
+msgid ""
+"Your license key has "
+"been disabled."
+msgstr ""
+
+#: inc/admin/updater/license.php:148
+msgid "Invalid license Key"
+msgstr ""
+
+#: inc/admin/updater/license.php:154
+msgid ""
+"Your license is not "
+"active for this URL."
+msgstr ""
+
+#: inc/admin/updater/license.php:159
+msgid ""
+"This appears to be an "
+"invalid license key for "
+"NFViews."
+msgstr ""
+
+#: inc/admin/updater/license.php:164
+msgid ""
+"Your license key has "
+"reached its activation "
+"limit."
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:243
+msgid "Post ID"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:256
+msgid "Post Title"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:269
+msgid "Post URL"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:282
+msgid "Post Author"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:295
+msgid "Post Author Email"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:308
+msgid "Post Meta"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:321
+msgid "User ID"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:334
+msgid "User First Name"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:347
+msgid "User Last Name"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:360
+msgid "User Display Name"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:373
+msgid "User Username"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:386
+msgid "User Email"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:399
+msgid "User URL"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:412
+msgid "User Meta"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:425
+msgid "Site Title"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:438
+msgid "Site URL"
+msgstr ""
+
+#: inc/class-wpforms-views-mergetags.php:451
+msgid "Admin Email"
+msgstr ""
+
+#: inc/class-wpforms-views-shortcode.php:198
+msgid "No records found."
+msgstr ""
+
+#: inc/pagination.php:147
+msgid "Previous"
+msgstr ""
+
+#: inc/pagination.php:209
+msgid "Next"
+msgstr ""
+
+#: inc/widgets/class-wpf-views-widget-search.php:65
+msgid "All"
+msgstr ""
+
+#: inc/widgets/class-wpf-views-widget-search.php:80
+msgid "Search"
+msgstr ""
+
+#: inc/widgets/class-wpf-views-widget-search.php:83
+msgid "Clear"
+msgstr ""

@@ -1,0 +1,28 @@
+[25-Jul-2021 15:37:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php on line 16
+[25-Sep-2021 22:52:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php on line 16
+[10-Nov-2021 15:23:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php on line 16
+[24-Nov-2021 15:31:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php on line 16
+[28-Dec-2021 05:54:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php on line 16
+[28-Dec-2021 09:12:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php on line 16
+[02-Jan-2022 19:24:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/index.php on line 16

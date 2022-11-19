@@ -1,0 +1,243 @@
+.tmp_es {
+	background-position: left -21px;
+}
+.tmp_fs {
+	background-position: left -40px;
+}
+
+/* Views Css */
+.pure-g {
+	padding: 10px;
+	/* border: 1px solid #ccc; */
+}
+.wpf-views-cont {
+	overflow-x: auto;
+}
+
+.wpforms-views-table {
+	margin-top: 10px;
+}
+
+.field-pagination .pagination {
+	clear: both;
+	padding: 0;
+	text-align: right;
+	padding: 10px;
+	margin: 0px;
+}
+.field-pagination .pagination li {
+	display: inline;
+}
+.field-pagination .pagination a {
+	border: 1px solid #d5d5d5;
+	color: #666666;
+	font-size: 11px;
+	font-weight: bold;
+	height: 25px;
+	padding: 4px 8px;
+	text-decoration: none;
+	margin: 2px;
+}
+.field-pagination .pagination a:hover,
+.field-pagination .pagination a:active {
+	background: #efefef;
+}
+.field-pagination .pagination span.current {
+	background-color: #687282;
+	border: 1px solid #d5d5d5;
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: bold;
+	height: 25px;
+	padding: 4px 8px;
+	text-decoration: none;
+	margin: 2px;
+}
+.field-pagination .pagination span.disabled {
+	border: 1px solid #eeeeee;
+	color: #dddddd;
+	margin: 2px;
+	padding: 2px 5px;
+}
+.field-paginationInfo {
+	text-align: right;
+}
+
+.wpforms-view-search-form.horizontal .search-form-field {
+	display: inline-block;
+	margin-right: 15px;
+}
+/* list view styling */
+.wpforms-view-type-list.view-theme-default .wpforms-view-row {
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0;
+}
+.wpforms-view-type-list.view-theme-default .wpforms-view-row .wpforms-view-col {
+	padding: 0 15px;
+}
+.wpforms-view-type-list.view-theme-default
+	.wpforms-view-row
+	.wpforms-view-col
+	.wpforms-view-field-cont {
+	padding-bottom: 10px;
+}
+.wpforms-view-type-list.view-theme-default
+	.wpforms-view-col
+	.wpforms-view-field-cont
+	.wpforms-view-field-label {
+	font-weight: 700;
+}
+.wpforms-view-type-list.view-theme-default {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.view-clr-btn {
+	margin-left: 20px;
+}
+
+/* Table Styling */
+.wpforms-views-table th,
+.wpforms-views-table td {
+	white-space: nowrap;
+}
+
+/* Datatbales */
+.dataTables_info,
+.dataTables_paginate {
+	/* display:none; */
+}
+.wpforms-view-field-cont .dataTables_info,
+.wpforms-view-field-cont .dataTables_paginate {
+	display: block;
+}
+
+/* Single Entry View */
+
+.single-entry-view-cont .wpforms-view-field-cont {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+}
+.single-entry-view-cont .wpforms-view-field-cont .wpforms-view-field-label {
+	font-weight: bold;
+}
+
+.wpf-views-file-display-cont img {
+	max-width: 150px;
+}
+
+/* Themes */
+
+/* Default Table Hover*/
+
+.wpforms-views-table.pure-table-hover tr:hover {
+	background-color: #f2f2f2;
+}
+
+/* Rounded Table  */
+.wpforms-views-table.rounded-table {
+	border: 0px solid rgba(0, 0, 0, 0.1);
+	border-collapse: separate;
+	border-radius: 15px;
+}
+.wpforms-views-table.rounded-table thead {
+	background-color: #f9fafb;
+}
+.wpforms-views-table.rounded-table th,
+.wpforms-views-table.rounded-table td {
+	/* white-space: inherit; */
+	border-style: solid;
+	border-width: 0;
+	padding: 1em 1em;
+	border-bottom: 1px solid #ededed;
+}
+.wpforms-views-table.rounded-table th {
+	border-top: 1px solid #ededed;
+}
+.wpforms-views-table.rounded-table tr td:first-child,
+.wpforms-views-table.rounded-table tr th:first-child {
+	border-left: 1px solid #ededed;
+}
+.wpforms-views-table.rounded-table tr td:last-child,
+.wpforms-views-table.rounded-table tr th:last-child {
+	border-right: 1px solid #ededed;
+}
+
+.wpforms-views-table.rounded-table tr:last-child td:first-child {
+	border-bottom-left-radius: 10px;
+}
+.wpforms-views-table.rounded-table tr:first-child th:first-child {
+	border-top-left-radius: 10px;
+}
+
+.wpforms-views-table.rounded-table tr:last-child td:last-child {
+	border-bottom-right-radius: 10px;
+}
+.wpforms-views-table.rounded-table tr:first-child th:last-child {
+	border-top-right-radius: 10px;
+}
+/* Rounded Table Striped*/
+.wpforms-views-table.rounded-table.rounded-table-striped tr:nth-child(even) {
+	background-color: #f9fafb;
+}
+/* Rounded Table Hover*/
+
+.wpforms-views-table.rounded-table.rounded-table-hover tr:hover {
+	background-color: #f9fafb;
+}
+
+/* Cards */
+.wpf-views-cont.cards {
+	display: grid;
+	grid-column-gap: 50px;
+	grid-row-gap: 50px;
+	margin: 30px 0px;
+	overflow-x: visible;
+}
+.wpf-views-cont.cards .wpforms-view-row {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+.wpf-views-cont.cards .wpforms-view-field-cont {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.wpf-views-cont.cards .wpforms-view-row:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.wpf-views-cont.cards-2column {
+	grid-template-columns: auto auto;
+}
+
+.wpf-views-cont.cards-3column {
+	grid-template-columns: auto auto auto;
+}
+.wpf-views-cont.cards-4column {
+	grid-template-columns: auto auto auto auto;
+}
+.wpf-views-field-sortable-label .fa-stack {
+	width: 15px;
+	max-height: 16px;
+}
+.wpf-views-field-sortable-label a {
+	text-decoration: none !important;
+	line-height: 8px;
+	color: #e8e7e7;
+}
+.pure-table .wpf-views-field-sortable-label a {
+	color: #a2a9ae;
+}
+
+.wpf-views-field-sortable-label .fa-caret-up {
+	position: absolute;
+	top: 0;
+}
+.wpf-views-field-sortable-label .fa-caret-down {
+	position: absolute;
+	bottom: 0;
+}
+
+.wpf-views-field-sortable-label a.active-sort {
+	color: #009cff;
+}

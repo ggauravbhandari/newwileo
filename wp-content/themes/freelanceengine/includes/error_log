@@ -1,0 +1,49 @@
+[25-Jul-2021 15:37:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php:98
+Stack trace:
+#0 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/bootstrap.php(21): require_once()
+#1 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/index.php(23): require_once('/home/wileocom/...')
+#2 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/index.php(3): require_once('/home/wileocom/...')
+#3 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php on line 98
+[25-Sep-2021 22:52:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php:98
+Stack trace:
+#0 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/bootstrap.php(21): require_once()
+#1 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/index.php(23): require_once('/home/wileocom/...')
+#2 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/index.php(3): require_once('/home/wileocom/...')
+#3 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php on line 98
+[10-Nov-2021 15:23:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php:98
+Stack trace:
+#0 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/bootstrap.php(21): require_once()
+#1 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/index.php(23): require_once('/home/wileocom/...')
+#2 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/index.php(3): require_once('/home/wileocom/...')
+#3 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php on line 98
+[24-Nov-2021 15:31:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php:98
+Stack trace:
+#0 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/bootstrap.php(21): require_once()
+#1 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/index.php(23): require_once('/home/wileocom/...')
+#2 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/index.php(3): require_once('/home/wileocom/...')
+#3 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php on line 98
+[28-Dec-2021 05:54:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php:98
+Stack trace:
+#0 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/bootstrap.php(21): require_once()
+#1 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/index.php(23): require_once('/home/wileocom/...')
+#2 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/index.php(3): require_once('/home/wileocom/...')
+#3 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php on line 98
+[28-Dec-2021 09:12:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php:98
+Stack trace:
+#0 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/bootstrap.php(21): require_once()
+#1 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/index.php(23): require_once('/home/wileocom/...')
+#2 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/index.php(3): require_once('/home/wileocom/...')
+#3 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php on line 98
+[02-Jan-2022 19:24:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php:98
+Stack trace:
+#0 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/bootstrap.php(21): require_once()
+#1 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/index.php(23): require_once('/home/wileocom/...')
+#2 /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/index.php(3): require_once('/home/wileocom/...')
+#3 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-content/themes/freelanceengine/includes/aecore/fields/field-image.php on line 98

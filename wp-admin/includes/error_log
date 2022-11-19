@@ -1,0 +1,11 @@
+[29-Oct-2021 03:58:47 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Privacy_Data_Export_Requests_List_Table' not found in /home/wileocom/public_html/wileo.com/wp-admin/includes/deprecated.php:1530
+Stack trace:
+#0 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-admin/includes/deprecated.php on line 1530
+[29-Oct-2021 07:52:01 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_List_Table' not found in /home/wileocom/public_html/wileo.com/wp-admin/includes/class-wp-comments-list-table.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/wileocom/public_html/wileo.com/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[29-Oct-2021 12:09:27 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/wileocom/public_html/wileo.com/wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php on line 11
+[29-Oct-2021 12:09:27 UTC] PHP Warning:  require_once(ABSPATHwp-admin/includes/class-wp-privacy-requests-table.php): failed to open stream: No such file or directory in /home/wileocom/public_html/wileo.com/wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php on line 11
+[29-Oct-2021 12:09:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/class-wp-privacy-requests-table.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/wileocom/public_html/wileo.com/wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php on line 11

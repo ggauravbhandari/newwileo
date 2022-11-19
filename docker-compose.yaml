@@ -1,0 +1,55 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: wileo
+        uid: 1001
+      context: docker
+      dockerfile: php/Dockerfile
+    image: wileo-app-image
+    container_name: wileo-app
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+      - ./docker/php/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    networks:
+      - wileonetwork
+
+  db:
+    build:
+      context: docker
+      dockerfile: mysql/Dockerfile
+    container_name: wileo-db
+    image: wileo-db-image
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: 'wileo_db'
+      MYSQL_ROOT_PASSWORD: 'root'
+      MYSQL_PASSWORD: 'root'
+      MYSQL_USER: 'wileo_user'
+    volumes:
+      - ./db/mysql:/var/lib/mysql
+      - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
+    networks:
+      - wileonetwork
+
+  nginx:
+    build:
+      context: docker
+      dockerfile: nginx/Dockerfile
+    container_name: wileo-nginx
+    image: wileo-nginx-image
+    restart: unless-stopped
+    ports:
+      - "8800:80"
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx:/etc/nginx/conf.d
+    networks:
+      - wileonetwork
+
+networks: 
+  wileonetwork:
+    driver: bridge

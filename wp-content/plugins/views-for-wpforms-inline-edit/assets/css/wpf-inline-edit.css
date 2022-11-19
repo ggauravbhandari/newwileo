@@ -1,0 +1,17 @@
+.inline-edit-enable {
+    float: right;
+    margin-bottom: 1em;
+}
+.clearfix{
+	clear:both;
+}
+.wpf-editable-container .editable-buttons{
+display: block;
+}
+.editable-input{
+margin-bottom: 10px !important;
+}
+.editable-buttons button.ui-button-icon-only{
+	width: auto !important;
+	margin-right: 10px !important;
+}

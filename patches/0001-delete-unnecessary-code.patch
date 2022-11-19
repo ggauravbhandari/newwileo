@@ -1,0 +1,35 @@
+From efda25cc8fe4c0d1954dd02cd2e199b81398a337 Mon Sep 17 00:00:00 2001
+From: Gaurav Bhandari <ggauravbhandari@gmail.com>
+Date: Wed, 6 Jul 2022 14:39:25 +0530
+Subject: [PATCH] delete unnecessary code
+
+---
+ .../freelanceengine/includes/fre_credit/class-credit-users.php | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/wp-content/themes/freelanceengine/includes/fre_credit/class-credit-users.php b/wp-content/themes/freelanceengine/includes/fre_credit/class-credit-users.php
+index 8a7d0524..cfadd25f 100644
+--- a/wp-content/themes/freelanceengine/includes/fre_credit/class-credit-users.php
++++ b/wp-content/themes/freelanceengine/includes/fre_credit/class-credit-users.php
+@@ -346,7 +346,6 @@ class FRE_Credit_Users extends AE_Base{
+       * @author Jack Bui
+       */
+    public function charge($charge_obj = array()){  
+-          //echo "in";exit;
+             global $user_ID;
+ 
+             $default = array(
+@@ -370,10 +369,8 @@ class FRE_Credit_Users extends AE_Base{
+            
+             if( !empty($charge_obj['check_project_type'] && $charge_obj['check_project_type'] == 'time-based') ){
+ 
+-                //$this->updateUserBalance($user_ID, 0);
+                 $froze_balance = FRE_Credit_Users()->getUserWallet($user_ID, 'freezable');
+                 $froze_balance->balance +=  $wallet->balance;
+-                //$this->updateUserBalance($user_ID, $froze_balance->balance, 'freezable');
+                 $charge_id = FRE_Credit_History()->saveHistory($charge_obj);
+                 $response = array(
+                     'success'=> true,
+-- 
+2.32.1 (Apple Git-133)
+
