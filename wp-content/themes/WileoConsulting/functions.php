@@ -437,6 +437,45 @@ function changePassword()
     ), ET_VERSION, true);
 }
 
+add_shortcode('user-profile-visibility', 'userProfileVisibility');
+
+/**
+ * Function is used to update user profile visibility
+ * @return update user profile visibility
+ */
+function userProfileVisibility()
+{
+    $path = get_template_directory();
+    require_once $path . '/template-js/user_profile_visibility.php';
+    wp_enqueue_script('fre-lib', get_template_directory_uri() . '/assets/js/fre-lib.js', array(), ET_VERSION, true);
+    wp_enqueue_script('front', get_template_directory_uri() . '/assets/js/front.js', array(
+
+        'jquery',
+
+        'underscore',
+
+        'backbone',
+
+        'appengine',
+
+        'front'
+
+    ), ET_VERSION, true);
+    wp_enqueue_script('custom-script', get_stylesheet_directory_uri() . '/assets/js/custom-script.js', array(
+
+        'jquery',
+
+        'underscore',
+
+        'backbone',
+
+        'appengine',
+
+        'front'
+
+    ), ET_VERSION, true);
+}
+
 add_shortcode('identification-form', 'submitIdentification');
 
 /**

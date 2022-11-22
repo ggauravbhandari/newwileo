@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wileonew' );
+define( 'DB_NAME', 'wileocom_wp2_local' );
 
 /** Database username */
 define( 'DB_USER', 'root' );

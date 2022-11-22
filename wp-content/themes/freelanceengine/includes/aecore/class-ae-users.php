@@ -2410,10 +2410,35 @@ class AE_UserAction extends AE_Base {
         $this->add_ajax( 'ae-fetch-users', 'fetch' );
 
         $this->add_ajax( 'ae-sync-user', 'sync' );
+        $this->add_ajax( 'ae-sync-profile-visibility', 'update_profile_visibility' );
 
     }
 
 
+    function update_profile_visibility(){
+        if(!empty($_POST['is_checked_yes']) && $_POST['is_checked_yes'] == "yes"){
+            $update_info = update_user_meta( $_POST['ID'], 'user_profile_visibility', $_POST['is_checked_yes'] );
+            // return array(
+            // 'success' => true,
+            // 'msg'     => __( "Your profile is visible for publically!", ET_DOMAIN )
+            // );
+            $result->success =true;
+            $result->msg = __( "Your profile has been saved successfully!", ET_DOMAIN );
+            return $result;
+
+        }else if(!empty($_POST['is_checked_yes']) && $_POST['is_checked_yes'] == "no"){
+            $update_info = update_user_meta( $_POST['ID'], 'user_profile_visibility', $_POST['is_checked_yes'] );
+            // return array(
+            // 'success' => true,
+            // 'msg'     => __( "Your profile is not visible for publically!", ET_DOMAIN )
+            // );
+            $result->error =true;
+            $result->msg = __( "Your profile is not visible for publically!", ET_DOMAIN );
+            return $result;
+            exit;
+        }
+        
+    }
 
     /**
 
