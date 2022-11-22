@@ -5,7 +5,7 @@
 global $wp_query, $ae_post_factory, $post;
 $post_object = $ae_post_factory->get( PROFILE );
 ?>
-<ul class="fre-profile-list profile-list-container">
+<ul class="fre-profile-list profile-list-container 00000023">
 	<?php
 	$postdata = array();
 	if ( have_posts() ) {
