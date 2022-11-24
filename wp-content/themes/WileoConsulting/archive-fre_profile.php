@@ -27,7 +27,7 @@ $user_role   = ae_user_role( $user_ID );
             <div class="col-md-8">
                 <?php
                     $query_post  = $wp_query->found_posts;
-                    $found_posts = '<span class="found_post">' . $query_post . '</span>';
+                    $found_posts = '<span class="found_post" >' . $query_post . '</span>';
                     $plural      = sprintf( __( '%s profiles available', ET_DOMAIN ), $found_posts );
                     $singular    = sprintf( __( '%s profile available', ET_DOMAIN ), $found_posts );
                     $not_found   = sprintf( __( 'There are no available profiles on this site!', ET_DOMAIN ), $found_posts );

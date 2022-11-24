@@ -72,6 +72,8 @@ $("body #profile_visible_action").on("submit", function (event){
                 type: 'POST',
                 data: data,
                 success: function (status){
+                    
+                    $('.visible_invi__content').text('Make my profile invisible for other users');
                     button.removeAttr('disabled');
                     form.removeClass('processing');
                     
@@ -80,6 +82,7 @@ $("body #profile_visible_action").on("submit", function (event){
                             notice_type: 'success'
                         });
                         $('#profile_visible').attr('checked', true);
+                        
                         form.trigger('reset');
                         //window.location.href = ae_globals.homeURL;
                    
@@ -107,6 +110,7 @@ $("body #profile_visible_action").on("submit", function (event){
                 type: 'POST',
                 data: data,
                 success: function (status){
+                     $('.visible_invi__content').text('Your profile is now invisible for clients on the platform. Please note that your profile may still be used for marketing or biding purpose as per Terms and Condition. If you wish to delete your profile. please contact xxx@wileo.com');
                     button.removeAttr('disabled');
                     form.removeClass('processing');
                    
@@ -115,6 +119,7 @@ $("body #profile_visible_action").on("submit", function (event){
                             notice_type: 'success'
                         });
                         $('#profile_visible').removeAttr('checked');
+                        
                         form.trigger('reset');
                         //window.location.href = ae_globals.homeURL;
                    

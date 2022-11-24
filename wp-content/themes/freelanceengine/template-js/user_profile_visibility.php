@@ -58,6 +58,10 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.profile-setting-profile-visibility-title{
+  padding: 20px 35px;
+  font-size: 24px;
+}
 </style>
 
 <div class="modal fade" id="modal_change_pass">
@@ -68,13 +72,21 @@ input:checked + .slider:before {
          
         </button>
       </div>
-      <h2 class="profile-setting-profile-visibility-title">Profile Visibility</h2>
+      <?php 
+      if ( is_user_logged_in() && $user_role == "freelancer") { ?>
+        <h2 class="profile-setting-profile-visibility-title">Profile Visibility</h2>
         <hr>
+      <?php 
+      } 
+      ?>
+        
       <div class="modal-body">
         <?php 
         $user_profile_visi = '';
-        if ( is_user_logged_in() ) {
+        $user_role   = ae_user_role( $user_ID );
+        if ( is_user_logged_in() && $user_role == "freelancer") {
           global  $ae_post_factory, $user_ID;
+
           
           if($user_ID){
             $user_profile_visi = get_user_meta($user_ID,'user_profile_visibility', true);
@@ -83,7 +95,7 @@ input:checked + .slider:before {
            
 
         ?>
-        <form role="form" id="profile_visible_action" class="fre-modal-form auth-form profile_visible">
+        <form role="form" id="profile_visible_action" class="fre-modal-form auth-form profile_visible ">
           <div class="fre-input-field">
             
             <label class="switch">
@@ -92,9 +104,31 @@ input:checked + .slider:before {
             </label>
             
           </div>
-          <div class="fre-input-field">
-            <p><?php _e('Make my profile invisible for other users', ET_DOMAIN) ?></p>
-          </div>
+          <?php
+          if($user_ID){
+            $user_profile_visi = get_user_meta($user_ID,'user_profile_visibility', true);
+            
+            ?>
+            <div class="fre-input-field">
+              <?php 
+              if($user_profile_visi == 'yes' || $user_profile_visi == ''){
+                ?>
+                
+                <p class="visible_invi__content"><?php _e('Make my profile invisible for other users', ET_DOMAIN) ?></p>
+                <?php
+              }else{
+                ?>
+                <p class="visible_invi__content"><?php _e('Your profile is now invisible for clients on the platform. Please note that your profile may still be used for marketing or biding purpose as per Terms and Condition. If you wish to delete your profile. please contact xxx@wileo.com', ET_DOMAIN) ?></p>
+                <?php
+              }
+              ?>
+              
+            </div>
+          <?php
+          }
+
+          ?>
+          
           <div class="fre-form-btn text-right">
             <button type="submit" class="fre-normal-btn btn-submit">
               <?php _e('Save', ET_DOMAIN) ?>
